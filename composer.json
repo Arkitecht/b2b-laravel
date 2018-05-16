@@ -1,0 +1,21 @@
+{
+  "name": "arkitecht/laravel-b2b",
+  "description": "Laravel Wrapper for B2B Rest integration library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aaron J. Rubin",
+      "email": "aaron@arkitech.net"
+    }
+  ],
+  "require": {
+    "arkitecht/b2b": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arkitecht\\B2B\\Laravel": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
