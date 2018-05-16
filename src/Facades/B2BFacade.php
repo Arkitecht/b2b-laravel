@@ -4,7 +4,7 @@ namespace App\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class B2B extends Facade
+class B2BFacade extends Facade
 {
     /**
      * Get the facade

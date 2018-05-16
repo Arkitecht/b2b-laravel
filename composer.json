@@ -9,11 +9,23 @@
     }
   ],
   "require": {
-    "arkitecht/b2b": "dev-master"
+    "php": "^5.6",
+    "arkitecht/b2b": "dev-master",
+    "illuminate/support": "~5.4.0|~5.5.0"
   },
   "autoload": {
     "psr-4": {
       "Arkitecht\\B2B\\Laravel": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Arkitecht\\B2B\\Laravel\\B2bServiceProvider"
+      ],
+      "aliases": {
+        "B2B": "Arkitecht\\B2B\\Laravel\\B2BFacade"
+      }
     }
   },
   "minimum-stability": "dev",
