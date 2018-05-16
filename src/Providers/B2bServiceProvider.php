@@ -32,7 +32,7 @@ class B2bServiceProvider extends ServiceProvider
             return new B2B(config('b2b.api.auth'), config('b2b.api.scopes'), true);
         });
 
-        $this->app->alias(B2B::class, 'b2b');
+        $this->app->alias('b2b', B2B::class);
     }
 
     /**
