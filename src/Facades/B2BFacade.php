@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Facades;
+namespace Arkitecht\B2B\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

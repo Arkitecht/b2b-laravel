@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Arkitecht\\B2B\\Laravel": "src/"
+      "Arkitecht\\B2B\\Laravel\\": "src/"
     }
   },
   "extra": {
