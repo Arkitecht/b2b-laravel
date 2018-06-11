@@ -7,7 +7,8 @@ return [
         'dir'  => env('B2B_FTP_DIR'),
     ],
     'api' => [
-        'auth'   => env('B2B_API_AUTH'),
-        'scopes' => env('B2B_API_SCOPES'),
+        'auth'        => env('B2B_API_AUTH'),
+        'scopes'      => env('B2B_API_SCOPES'),
+        'environment' => env('B2B_API_ENV','development'),
     ],
 ];

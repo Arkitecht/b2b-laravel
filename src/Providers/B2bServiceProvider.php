@@ -29,7 +29,7 @@ class B2bServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__ . '/../config/b2b.php', 'b2b');
 
         $this->app->singleton('b2b', function ($app) {
-            return new B2B(config('b2b.api.auth'), config('b2b.api.scopes'), true);
+            return new B2B(config('b2b.api.auth'), config('b2b.api.scopes'), true, config('b2b.api.environment'));
         });
 
         $this->app->alias('b2b', B2B::class);
