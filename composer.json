@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "php": "^5.6|~7.0",
+    "php": ">=5.6.4",
     "arkitecht/b2b": "dev-master",
     "illuminate/support": "~5.4.0|~5.5.0"
   },
