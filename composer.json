@@ -21,10 +21,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Arkitecht\\B2B\\Laravel\\B2bServiceProvider"
+        "Arkitecht\\B2B\\Laravel\\Providers\\B2bServiceProvider"
       ],
       "aliases": {
-        "B2B": "Arkitecht\\B2B\\Laravel\\B2BFacade"
+        "B2B": "Arkitecht\\B2B\\Laravel\\Facades\\B2BFacade"
       }
     }
   },
