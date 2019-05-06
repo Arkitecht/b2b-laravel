@@ -32,7 +32,17 @@ class B2bServiceProvider extends ServiceProvider
             return new B2B(config('b2b.api.auth'), config('b2b.api.scopes'), true, config('b2b.api.environment'));
         });
 
+        $this->app->singleton('b2bsoap', function ($app) {
+            return new B2BSoap(
+                config('b2b.soap.service_code'),
+                config('b2b.soap.username'),
+                config('b2b.soap.password'),
+                config('b2b.soap.vendor_code')
+            );
+        });
+
         $this->app->alias('b2b', B2B::class);
+        $this->app->alias('b2bsoap', B2BSoap::class);
     }
 
     /**

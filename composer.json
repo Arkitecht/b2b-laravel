@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": ">=5.6.4|^7",
-    "arkitecht/b2b": "dev-master",
+    "arkitecht/b2b": ">=1.0.1",
     "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0"
   },
   "autoload": {
@@ -24,7 +24,8 @@
         "Arkitecht\\B2B\\Laravel\\Providers\\B2bServiceProvider"
       ],
       "aliases": {
-        "B2B": "Arkitecht\\B2B\\Laravel\\Facades\\B2BFacade"
+        "B2B": "Arkitecht\\B2B\\Laravel\\Facades\\B2BFacade",
+        "B2BSoap": "Arkitecht\\B2B\\Laravel\\Facades\\B2BSoapFacade"
       }
     }
   },
