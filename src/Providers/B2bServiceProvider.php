@@ -52,6 +52,9 @@ class B2bServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [B2B::class];
+        return [
+            B2B::class,
+            B2BSoap::class
+        ];
     }
 }
