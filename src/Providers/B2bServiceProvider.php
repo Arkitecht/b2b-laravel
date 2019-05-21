@@ -3,6 +3,7 @@
 namespace Arkitecht\B2B\Laravel\Providers;
 
 use Arkitecht\B2B\B2B;
+use Arkitecht\B2B\B2BSoap;
 use Illuminate\Support\ServiceProvider;
 
 class B2bServiceProvider extends ServiceProvider
