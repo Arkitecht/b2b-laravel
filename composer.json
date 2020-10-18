@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": ">=5.6.4|^7",
-    "arkitecht/b2b": "~2.0",
+    "arkitecht/b2b": "^2.1",
     "illuminate/support": "^5.0|^6.0|^7.0|^8.0"
   },
   "autoload": {
